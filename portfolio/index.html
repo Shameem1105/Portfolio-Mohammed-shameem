@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Shameem S | Software Engineer & Product Builder</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-center-content">
+            <!-- 4-Stack Status List -->
+            <div class="preloader-stack-list">
+                <div class="stack-item pending" id="step-1">
+                    <div class="stack-status-icon">
+                        <span class="status-dot"></span>
+                        <span class="status-spinner"></span>
+                        <svg class="status-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                    </div>
+                    <span class="stack-text">LOADING FULL-STACK ARCHITECTURE</span>
+                </div>
+                <div class="stack-item pending" id="step-2">
+                    <div class="stack-status-icon">
+                        <span class="status-dot"></span>
+                        <span class="status-spinner"></span>
+                        <svg class="status-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                    </div>
+                    <span class="stack-text">INITIALIZING AI &amp; MCP WORKFLOWS</span>
+                </div>
+                <div class="stack-item pending" id="step-3">
+                    <div class="stack-status-icon">
+                        <span class="status-dot"></span>
+                        <span class="status-spinner"></span>
+                        <svg class="status-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                    </div>
+                    <span class="stack-text">COMPILING EMBEDDED HARDWARE SYSTEMS</span>
+                </div>
+                <div class="stack-item pending" id="step-4">
+                    <div class="stack-status-icon">
+                        <span class="status-dot"></span>
+                        <span class="status-spinner"></span>
+                        <svg class="status-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                    </div>
+                    <span class="stack-text">LAUNCHING PORTFOLIO EXPERIENCE</span>
+                </div>
+            </div>
+
+            <!-- Central Percentage Counter -->
+            <div class="preloader-counter-container">
+                <span id="load-percentage">000</span><span class="pct-sign">%</span>
+            </div>
+
+            <div class="preloader-status-msg">LOADING FULL-STACK ARCHITECTURE...</div>
+
+            <div class="preloader-bar-wrapper">
+                <div class="preloader-progress-bar">
+                    <div class="preloader-progress-fill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Background Canvas for Stars / Particle Effect -->
+    <canvas id="starfield"></canvas>
+
+    <!-- Ambient Glow Blobs -->
+    <div class="glow-blob blob-1"></div>
+    <div class="glow-blob blob-2"></div>
+    <div class="glow-blob blob-3"></div>
+
+    <!-- Header Navigation -->
+    <header class="nav-container">
+        <nav class="navbar">
+            <a href="#hero" class="brand">SHAMEEM</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <a href="videos/mohammed shameem new resume.pdf" class="btn-resume" download>
+                <span>Resume</span>
+                <i data-lucide="download" class="icon-sm"></i>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <video autoplay loop muted playsinline class="hero-bg-video">
+                <source src="videos/A_dark_minimalist_backgroun (online-video-cutter.com).mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <span class="hero-tagline">MOHAMMED SHAMEEM S // SOFTWARE ENGINEER // PRODUCT BUILDER</span>
+                <h1 class="hero-title">Mohammed Shameem S</h1>
+                <p class="hero-subtitle">Software Engineer &nbsp;|&nbsp; Product Builder &nbsp;|&nbsp; Full-Stack Developer</p>
+                <p class="hero-description">
+                    Building intelligent software products and embedded solutions that solve real-world problems through full-stack development, AI integration, and practical engineering.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">
+                        <span>View Projects</span>
+                        <i data-lucide="arrow-right" class="icon-md"></i>
+                    </a>
+                    <a href="videos/mohammed shameem new resume.pdf" class="btn-secondary" download>
+                        <i data-lucide="download" class="icon-md"></i>
+                        <span>Download Resume</span>
+                    </a>
+                    <a href="#contact" class="btn-link">
+                        <span>Contact Me</span>
+                        <i data-lucide="mail" class="icon-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <span class="section-tag">ABOUT ME</span>
+                <h2 class="section-title">Who am I?</h2>
+
+                <div class="about-grid">
+                    <!-- Left: Profile Image -->
+                    <div class="about-image-wrapper">
+                        <div class="about-image-ring">
+                            <img src="img/photo_2026-07-02_15-19-10.jpg" alt="Mohammed Shameem S" class="about-photo">
+                        </div>
+                        <div class="about-image-glow"></div>
+                    </div>
+
+                    <!-- Right: Bio Content -->
+                    <div class="about-content">
+                        <h3 class="about-headline">Mohammed Shameem S</h3>
+                        <p class="about-role">Electronics &amp; Communication Engineer &bull; Full-Stack Developer</p>
+
+
+                        <p class="about-bio">
+                            I'm an Electronics and Communication Engineering undergraduate with a passion for designing software products that solve practical problems.
+                        </p>
+                        <p class="about-bio">
+                            My interests span full-stack software development, AI integration, backend architecture, and embedded systems. I enjoy taking an idea from concept to implementation by designing the system architecture, building the frontend and backend, integrating databases, and delivering a complete working solution.
+                        </p>
+                        <p class="about-bio">
+                            Alongside my academic journey, I've worked on freelance client projects, completed a software development internship, and built my own products, including an AI-enabled talent assessment platform and a smart personal safety prototype.
+                        </p>
+
+
+                        <div class="about-highlights">
+                            <div class="about-highlight-item">
+                                <span class="highlight-icon"><i data-lucide="graduation-cap"></i></span>
+                                <div>
+                                    <strong>B.E ECE</strong>
+                                    <span>Electronics & Communication Engineering</span>
+                                </div>
+                            </div>
+                            <div class="about-highlight-item">
+                                <span class="highlight-icon"><i data-lucide="layers"></i></span>
+                                <div>
+                                    <strong>Full Stack & AI</strong>
+                                    <span>Web, Backend & LLM Integrations</span>
+                                </div>
+                            </div>
+                            <div class="about-highlight-item">
+                                <span class="highlight-icon"><i data-lucide="cpu"></i></span>
+                                <div>
+                                    <strong>Embedded Systems</strong>
+                                    <span>Arduino / ESP Hardware Prototyping</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Spine Section (3D Cylindrical Scroll-Driven Animation) -->
+        <section id="projects" class="projects-spine-section">
+            <div class="projects-spine-sticky">
+                
+                <!-- Section Header -->
+                <div class="projects-spine-header">
+                    <span class="section-tag spine-tag">MY WORK</span>
+                    <h2 class="section-title text-center">Featured Projects &amp; <span class="gradient-text">Products</span></h2>
+                    <p class="section-subtitle-text text-center">Scroll to explore the 3D project spine &bull; Click active card for complete details</p>
+                </div>
+
+                <!-- 3D Scene Viewport -->
+                <div class="spine-3d-scene" id="spine-scene">
+                    
+                    <!-- Vertical Central Spine Beam & Milestone Nodes (Behind Cards) -->
+                    <div class="spine-track-container" id="spine-track">
+                        <div class="spine-vertical-line" id="spine-vertical-line"></div>
+                        <div class="spine-nodes-wrapper" id="spine-nodes-wrapper">
+                            <!-- Populated with milestone nodes -->
+                        </div>
+                    </div>
+
+                    <!-- 3D Cylinder Container -->
+                    <div class="spine-cylinder-container" id="spine-cylinder">
+                        
+                        <!-- Project Card 1: Aethon Sentinel -->
+                        <div class="spine-card-wrapper" data-index="0">
+                            <div class="compact-project-card glassmorphic spine-project-card" data-project-id="aethon" data-accent="#00f5d4">
+                                <div class="card-spotlight"></div>
+                                <div class="spine-card-topbar">
+                                    <div class="spine-icon-box" style="background: linear-gradient(135deg, #00f5d4, #00b4d8); color: #050d1a;">
+                                        <i data-lucide="bot"></i>
+                                    </div>
+                                    <span class="spine-number-badge">01</span>
+                                </div>
+                                <div class="spine-stat-label">FLAGSHIP // AI</div>
+                                <h3 class="compact-card-title">Aethon Sentinel</h3>
+                                <p class="compact-card-tagline">Intelligent Talent Assessment Platform</p>
+                                <p class="compact-card-desc">End-to-end recruitment assessment platform with AI assistance &amp; MCP database integration.</p>
+                                <div class="compact-tech-pills">
+                                    <span>Angular</span>
+                                    <span>Node.js</span>
+                                    <span>MySQL</span>
+                                    <span>GROQ API</span>
+                                    <span>MCP</span>
+                                </div>
+                                <div class="card-click-prompt">
+                                    <span>Click to View Full Details</span>
+                                    <i data-lucide="arrow-up-right" class="icon-xs"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 2: TRUVA -->
+                        <div class="spine-card-wrapper" data-index="1">
+                            <div class="compact-project-card glassmorphic spine-project-card" data-project-id="truva" data-accent="#f59e0b">
+                                <div class="card-spotlight"></div>
+                                <div class="spine-card-topbar">
+                                    <div class="spine-icon-box" style="background: linear-gradient(135deg, #f59e0b, #ef4444); color: #ffffff;">
+                                        <i data-lucide="shield-alert"></i>
+                                    </div>
+                                    <span class="spine-number-badge">02</span>
+                                </div>
+                                <div class="spine-stat-label">HARDWARE // IOT</div>
+                                <h3 class="compact-card-title">TRUVA</h3>
+                                <p class="compact-card-tagline">Smart Personal Safety System</p>
+                                <p class="compact-card-desc">Hardware &amp; software emergency response ecosystem designed for real-time safety assistance.</p>
+                                <div class="compact-tech-pills">
+                                    <span>ESP</span>
+                                    <span>Sensors</span>
+                                    <span>Embedded C</span>
+                                    <span>GPS</span>
+                                    <span>GSM</span>
+                                </div>
+                                <div class="card-click-prompt">
+                                    <span>Click to View Full Details</span>
+                                    <i data-lucide="arrow-up-right" class="icon-xs"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 3: Prince iSOLVE -->
+                        <div class="spine-card-wrapper" data-index="2">
+                            <div class="compact-project-card glassmorphic spine-project-card" data-project-id="princeisolve" data-accent="#3b82f6">
+                                <div class="card-spotlight"></div>
+                                <div class="spine-card-topbar">
+                                    <div class="spine-icon-box" style="background: linear-gradient(135deg, #3b82f6, #6366f1); color: #ffffff;">
+                                        <i data-lucide="map-pin"></i>
+                                    </div>
+                                    <span class="spine-number-badge">03</span>
+                                </div>
+                                <div class="spine-stat-label">SMART TRANSIT</div>
+                                <h3 class="compact-card-title">Prince iSOLVE</h3>
+                                <p class="compact-card-tagline">Smart Transit Routing &amp; Logistics</p>
+                                <p class="compact-card-desc">Hackathon-winning smart transit routing engine with real-time Leaflet.js maps &amp; delay notifications.</p>
+                                <div class="compact-tech-pills">
+                                    <span>HTML5</span>
+                                    <span>JS</span>
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                    <span>Leaflet.js</span>
+                                </div>
+                                <div class="card-click-prompt">
+                                    <span>Click to View Full Details</span>
+                                    <i data-lucide="arrow-up-right" class="icon-xs"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 4: JGC Construction ERP -->
+                        <div class="spine-card-wrapper" data-index="3">
+                            <div class="compact-project-card glassmorphic spine-project-card" data-project-id="jgc" data-accent="#10b981">
+                                <div class="card-spotlight"></div>
+                                <div class="spine-card-topbar">
+                                    <div class="spine-icon-box" style="background: linear-gradient(135deg, #10b981, #06b6d4); color: #ffffff;">
+                                        <i data-lucide="building-2"></i>
+                                    </div>
+                                    <span class="spine-number-badge">04</span>
+                                </div>
+                                <div class="spine-stat-label">ENTERPRISE ERP</div>
+                                <h3 class="compact-card-title">JGC Construction ERP</h3>
+                                <p class="compact-card-tagline">Construction Management System</p>
+                                <p class="compact-card-desc">20+ screen platform for attendance tracking, inventory monitoring, task assignment &amp; analytics.</p>
+                                <div class="compact-tech-pills">
+                                    <span>HTML5</span>
+                                    <span>JS</span>
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                </div>
+                                <div class="card-click-prompt">
+                                    <span>Click to View Full Details</span>
+                                    <i data-lucide="arrow-up-right" class="icon-xs"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 5: Packazilla -->
+                        <div class="spine-card-wrapper" data-index="4">
+                            <div class="compact-project-card glassmorphic spine-project-card" data-project-id="packazilla" data-accent="#8b5cf6">
+                                <div class="card-spotlight"></div>
+                                <div class="spine-card-topbar">
+                                    <div class="spine-icon-box" style="background: linear-gradient(135deg, #8b5cf6, #ec4899); color: #ffffff;">
+                                        <i data-lucide="package"></i>
+                                    </div>
+                                    <span class="spine-number-badge">05</span>
+                                </div>
+                                <div class="spine-stat-label">3D CONFIGURATOR</div>
+                                <h3 class="compact-card-title">Packazilla</h3>
+                                <p class="compact-card-tagline">Custom Packaging Configurator</p>
+                                <p class="compact-card-desc">Interactive web configurator &amp; pricing engine for custom 3D packaging box orders.</p>
+                                <div class="compact-tech-pills">
+                                    <span>HTML5</span>
+                                    <span>JS</span>
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                    <span>SVG</span>
+                                </div>
+                                <div class="card-click-prompt">
+                                    <span>Click to View Full Details</span>
+                                    <i data-lucide="arrow-up-right" class="icon-xs"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 6: The Big Bull -->
+                        <div class="spine-card-wrapper" data-index="5">
+                            <div class="compact-project-card glassmorphic spine-project-card" data-project-id="bigbull" data-accent="#ec4899">
+                                <div class="card-spotlight"></div>
+                                <div class="spine-card-topbar">
+                                    <div class="spine-icon-box" style="background: linear-gradient(135deg, #ec4899, #f43f5e); color: #ffffff;">
+                                        <i data-lucide="party-popper"></i>
+                                    </div>
+                                    <span class="spine-number-badge">06</span>
+                                </div>
+                                <div class="spine-stat-label">EVENT PORTAL</div>
+                                <h3 class="compact-card-title">The Big Bull</h3>
+                                <p class="compact-card-tagline">Event &amp; Service Portal</p>
+                                <p class="compact-card-desc">Responsive event website with Home, Services, Events, and Inquiry workflows.</p>
+                                <div class="compact-tech-pills">
+                                    <span>HTML5</span>
+                                    <span>JS</span>
+                                    <span>Bootstrap</span>
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                </div>
+                                <div class="card-click-prompt">
+                                    <span>Click to View Full Details</span>
+                                    <i data-lucide="arrow-up-right" class="icon-xs"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 7: Sovereign Awards -->
+                        <div class="spine-card-wrapper" data-index="6">
+                            <div class="compact-project-card glassmorphic spine-project-card" data-project-id="sovereign" data-accent="#eab308">
+                                <div class="card-spotlight"></div>
+                                <div class="spine-card-topbar">
+                                    <div class="spine-icon-box" style="background: linear-gradient(135deg, #eab308, #ca8a04); color: #050d1a;">
+                                        <i data-lucide="award"></i>
+                                    </div>
+                                    <span class="spine-number-badge">07</span>
+                                </div>
+                                <div class="spine-stat-label">AWARDS PLATFORM</div>
+                                <h3 class="compact-card-title">Sovereign Awards</h3>
+                                <p class="compact-card-tagline">Recognition &amp; Nomination Portal</p>
+                                <p class="compact-card-desc">Awards platform frontend for registrations, nominations, and sponsor showcases.</p>
+                                <div class="compact-tech-pills">
+                                    <span>HTML5</span>
+                                    <span>JS</span>
+                                    <span>Bootstrap</span>
+                                    <span>PHP</span>
+                                </div>
+                                <div class="card-click-prompt">
+                                    <span>Click to View Full Details</span>
+                                    <i data-lucide="arrow-up-right" class="icon-xs"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 8: Eximio Corporate Website -->
+                        <div class="spine-card-wrapper" data-index="7">
+                            <div class="compact-project-card glassmorphic spine-project-card" data-project-id="eximio" data-accent="#06b6d4">
+                                <div class="card-spotlight"></div>
+                                <div class="spine-card-topbar">
+                                    <div class="spine-icon-box" style="background: linear-gradient(135deg, #06b6d4, #3b82f6); color: #ffffff;">
+                                        <i data-lucide="globe"></i>
+                                    </div>
+                                    <span class="spine-number-badge">08</span>
+                                </div>
+                                <div class="spine-stat-label">CORPORATE WEB</div>
+                                <h3 class="compact-card-title">Eximio Corporate Website</h3>
+                                <p class="compact-card-tagline">Corporate Website &amp; Lead Engine</p>
+                                <p class="compact-card-desc">Clean-code corporate site with active lead generation forms and interactive widgets.</p>
+                                <div class="compact-tech-pills">
+                                    <span>HTML5</span>
+                                    <span>JS</span>
+                                    <span>Bootstrap</span>
+                                    <span>PHP</span>
+                                </div>
+                                <div class="card-click-prompt">
+                                    <span>Click to View Full Details</span>
+                                    <i data-lucide="arrow-up-right" class="icon-xs"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Vertical Milestone Indicators (Right Side) -->
+                <div class="spine-progress-nav" id="spine-progress-nav">
+                    <!-- 8 interactive/live dots -->
+                </div>
+
+                <!-- Scroll cue at bottom -->
+                <div class="spine-scroll-cue" id="spine-scroll-cue">
+                    <span class="scroll-cue-text">Scroll to rotate projects</span>
+                    <div class="scroll-cue-indicator">
+                        <div class="scroll-cue-dot"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Global Project Detail Modal Dialog -->
+        <div id="project-modal" class="modal-overlay" aria-hidden="true">
+            <div class="modal-backdrop"></div>
+            <div class="modal-container glassmorphic">
+                <button id="modal-close-btn" class="modal-close-button" aria-label="Close modal">
+                    <i data-lucide="x"></i>
+                </button>
+                <div id="modal-content-body" class="modal-body">
+                    <!-- Populated dynamically via JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <section id="experience" class="journey-section">
+            <div class="section-container">
+                <span class="section-tag text-center block">CAREER & WORK</span>
+                <h2 class="section-title text-center">Professional Experience</h2>
+
+                <div class="timeline-container">
+
+                    <!-- Role 1: Freelance -->
+                    <div class="timeline-card-wrapper project-card-3d glassmorphic">
+                        <div class="card-spotlight"></div>
+                        <div class="timeline-card-content">
+                            <div class="timeline-card-header">
+                                <div>
+                                    <span class="role-badge">Sep 2025 - Present</span>
+                                    <h3 class="role-title">Freelance Software Developer</h3>
+                                </div>
+                                <i data-lucide="briefcase" class="icon-lg text-accent"></i>
+                            </div>
+                            <p class="role-summary">
+                                Worked with clients to design and develop full-stack software solutions across multiple industries. Managed projects end-to-end from requirement gathering to production deployment.
+                            </p>
+                            <div class="role-block">
+                                <strong>Key Projects Shipped:</strong>
+                                <div class="projects-list-tags">
+                                    <span class="project-tag"><i data-lucide="folder-git-2" class="icon-xs"></i> JGC Construction ERP</span>
+                                    <span class="project-tag"><i data-lucide="folder-git-2" class="icon-xs"></i> Packazilla</span>
+                                    <span class="project-tag"><i data-lucide="folder-git-2" class="icon-xs"></i> Custom Business Applications</span>
+                                </div>
+                            </div>
+                            <div class="role-block">
+                                <strong>Core Responsibilities:</strong>
+                                <div class="pills-flex">
+                                    <span class="pill-item">Frontend Development</span>
+                                    <span class="pill-item">Backend Architecture</span>
+                                    <span class="pill-item">Database Integration</span>
+                                    <span class="pill-item">Client Communication</span>
+                                    <span class="pill-item">Deployment</span>
+                                    <span class="pill-item">Bug Fixing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Role 2: Intern -->
+                    <div class="timeline-card-wrapper project-card-3d glassmorphic">
+                        <div class="card-spotlight"></div>
+                        <div class="timeline-card-content">
+                            <div class="timeline-card-header">
+                                <div>
+                                    <span class="role-badge">Jun 2025 - Jul 2025</span>
+                                    <h3 class="role-title">Software Development Intern</h3>
+                                    <p class="company-name">Eximio Services Pvt. Ltd.</p>
+                                </div>
+                                <i data-lucide="building-2" class="icon-lg text-accent"></i>
+                            </div>
+                            <p class="role-summary">
+                                Completed an intensive web development internship (located in Kosmo One), contributing to high-performance client applications and building responsive, production-ready features.
+                            </p>
+                            <div class="role-block">
+                                <strong>Key Projects Contributed:</strong>
+                                <div class="projects-list-tags">
+                                    <span class="project-tag"><i data-lucide="folder-git-2" class="icon-xs"></i> The Big Bull</span>
+                                    <span class="project-tag"><i data-lucide="folder-git-2" class="icon-xs"></i> Packazilla</span>
+                                    <span class="project-tag"><i data-lucide="folder-git-2" class="icon-xs"></i> Sovereign Awards</span>
+                                    <span class="project-tag"><i data-lucide="folder-git-2" class="icon-xs"></i> Eximio Corporate Website</span>
+                                </div>
+                            </div>
+                            <div class="role-block">
+                                <strong>Core Responsibilities:</strong>
+                                <div class="pills-flex">
+                                    <span class="pill-item">Frontend Engineering</span>
+                                    <span class="pill-item">Backend Workflows</span>
+                                    <span class="pill-item">Responsive UI</span>
+                                    <span class="pill-item">Testing & Debugging</span>
+                                    <span class="pill-item">Deployment</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="section-container">
+                <span class="section-tag text-center block">TECHNICAL TOOLKIT</span>
+                <h2 class="section-title text-center">Skills &amp; Technologies</h2>
+
+                <div class="skills-grid">
+                    <!-- Languages & Fundamentals -->
+                    <div class="skill-category-card glassmorphic project-card-3d">
+                        <div class="card-spotlight"></div>
+                        <div class="skill-cat-header">
+                            <i data-lucide="code" class="icon-md text-accent"></i>
+                            <h3>Languages &amp; Core</h3>
+                        </div>
+                        <div class="skills-chips">
+                            <span class="chip-item">Java</span>
+                            <span class="chip-item">Data Structures &amp; Algorithms</span>
+                            <span class="chip-item">OOP</span>
+                            <span class="chip-item">Python</span>
+                            <span class="chip-item">JavaScript</span>
+                            <span class="chip-item">C</span>
+                            <span class="chip-item">C++</span>
+                        </div>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="skill-category-card glassmorphic project-card-3d">
+                        <div class="card-spotlight"></div>
+                        <div class="skill-cat-header">
+                            <i data-lucide="layout" class="icon-md text-accent"></i>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-chips">
+                            <span class="chip-item">Angular</span>
+                            <span class="chip-item">React</span>
+                            <span class="chip-item">HTML5</span>
+                            <span class="chip-item">CSS3</span>
+                            <span class="chip-item">Bootstrap</span>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill-category-card glassmorphic project-card-3d">
+                        <div class="card-spotlight"></div>
+                        <div class="skill-cat-header">
+                            <i data-lucide="server" class="icon-md text-accent"></i>
+                            <h3>Backend &amp; Systems</h3>
+                        </div>
+                        <div class="skills-chips">
+                            <span class="chip-item">Java Backend</span>
+                            <span class="chip-item">Node.js</span>
+                            <span class="chip-item">PHP</span>
+                            <span class="chip-item">REST APIs</span>
+                            <span class="chip-item">Software Engineering</span>
+                        </div>
+                    </div>
+
+                    <!-- Database -->
+                    <div class="skill-category-card glassmorphic project-card-3d">
+                        <div class="card-spotlight"></div>
+                        <div class="skill-cat-header">
+                            <i data-lucide="database" class="icon-md text-accent"></i>
+                            <h3>Database &amp; SQL</h3>
+                        </div>
+                        <div class="skills-chips">
+                            <span class="chip-item">MySQL</span>
+                            <span class="chip-item">SQL Queries</span>
+                            <span class="chip-item">Schema Design</span>
+                        </div>
+                    </div>
+
+                    <!-- AI & Integrations -->
+                    <div class="skill-category-card glassmorphic project-card-3d">
+                        <div class="card-spotlight"></div>
+                        <div class="skill-cat-header">
+                            <i data-lucide="bot" class="icon-md text-accent"></i>
+                            <h3>AI &amp; Integrations</h3>
+                        </div>
+                        <div class="skills-chips">
+                            <span class="chip-item">GROQ API</span>
+                            <span class="chip-item">MCP Protocol</span>
+                            <span class="chip-item">AI Integration</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Platforms -->
+                    <div class="skill-category-card glassmorphic project-card-3d">
+                        <div class="card-spotlight"></div>
+                        <div class="skill-cat-header">
+                            <i data-lucide="wrench" class="icon-md text-accent"></i>
+                            <h3>Tools &amp; Platforms</h3>
+                        </div>
+                        <div class="skills-chips">
+                            <span class="chip-item">Git</span>
+                            <span class="chip-item">GitHub</span>
+                            <span class="chip-item">VS Code</span>
+                            <span class="chip-item">XAMPP</span>
+                            <span class="chip-item">Figma</span>
+                            <span class="chip-item">Canva</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section">
+            <div class="section-container">
+                <span class="section-tag text-center block">CREDENTIALS</span>
+                <h2 class="section-title text-center">Certifications</h2>
+
+                <div class="cert-grid">
+                    <div class="cert-card glassmorphic project-card-3d">
+                        <div class="card-spotlight"></div>
+                        <div class="cert-icon-box"><i data-lucide="award"></i></div>
+                        <h4>Full Stack Development</h4>
+                        <p>Comprehensive certification covering frontend, backend, and database software engineering.</p>
+                    </div>
+
+                    <div class="cert-card glassmorphic project-card-3d">
+                        <div class="card-spotlight"></div>
+                        <div class="cert-icon-box"><i data-lucide="award"></i></div>
+                        <h4>Neo4j Graph Database</h4>
+                        <p>Certified in graph database fundamentals, data modeling, and Cypher query language.</p>
+                    </div>
+
+                    <div class="cert-card glassmorphic project-card-3d">
+                        <div class="card-spotlight"></div>
+                        <div class="cert-icon-box"><i data-lucide="award"></i></div>
+                        <h4>Ethical Hacking Workshop</h4>
+                        <p>Practical workshop on security vulnerability analysis, application security, and defenses.</p>
+                    </div>
+
+                    <div class="cert-card glassmorphic project-card-3d">
+                        <div class="card-spotlight"></div>
+                        <div class="cert-icon-box"><i data-lucide="award"></i></div>
+                        <h4>LEAP Professional Development</h4>
+                        <p>Leadership, communication, and executive professional development program.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Engineering Philosophy Section -->
+        <section id="philosophy" class="philosophy-section">
+            <div class="section-container">
+                <div class="philosophy-banner glassmorphic project-card-3d">
+                    <div class="card-spotlight"></div>
+                    <span class="section-tag">MY PHILOSOPHY</span>
+                    <h2 class="philosophy-heading">Building With Purpose</h2>
+                    <blockquote class="philosophy-quote-lg">
+                        "Great software isn't built by writing code alone. It begins with understanding a problem, designing the right solution, and continuously improving the product based on real-world needs."
+                    </blockquote>
+                    <p class="philosophy-author">&mdash; Mohammed Shameem S</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <span class="section-tag text-center block">GET IN TOUCH</span>
+                <h2 class="section-title text-center">Let's Connect</h2>
+
+                <div class="contact-grid">
+                    <!-- Form -->
+                    <form class="contact-form glassmorphic" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" required placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required placeholder="your.email@example.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required placeholder="Project Collaboration / Opportunity">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required placeholder="Tell me about your idea or project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary w-full">
+                            <span>Send Message</span>
+                            <i data-lucide="send" class="icon-sm"></i>
+                        </button>
+                    </form>
+
+                    <!-- Contact Details -->
+                    <div class="contact-info">
+                        <div class="info-card glassmorphic project-card-3d">
+                            <div class="card-spotlight"></div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:mohammedshameem1105@gmail.com">mohammedshameem1105@gmail.com</a></p>
+                        </div>
+                        <div class="info-card glassmorphic project-card-3d">
+                            <div class="card-spotlight"></div>
+                            <h3>Resume</h3>
+                            <p><a href="videos/mohammed shameem new resume.pdf" download class="inline-link"><i data-lucide="download" class="icon-xs"></i> Download Resume PDF</a></p>
+                        </div>
+                        <div class="social-links-container">
+                            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-link" title="LinkedIn">
+                                <i data-lucide="linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Shameem1105" target="_blank" rel="noopener" class="social-link" title="GitHub">
+                                <i data-lucide="github"></i>
+                            </a>
+                            <a href="mailto:mohammedshameem1105@gmail.com" class="social-link" title="Email Me">
+                                <i data-lucide="mail"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Mohammed Shameem S. Built with practical engineering &amp; modern aesthetics.</p>
+            <div class="footer-bottom-links">
+                <a href="#hero">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Follower Cursor -->
+    <div id="custom-cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-circle"></div>
+    </div>
+
+    <!-- GSAP CDNs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
